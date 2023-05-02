@@ -89,8 +89,8 @@ function operate () {
 
 
 function equals () {
-   let equal = eval(currentNumber.innerHTML).toFixed(2)
-    currentNumber.innerHTML = equal
+   let equal = eval(currentNumber.innerHTML)
+    currentNumber.innerHTML = equal.toFixed(2)
 
 }
 
