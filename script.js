@@ -89,7 +89,7 @@ function operate () {
 
 
 function equals () {
-   let equal = eval(currentNumber.innerHTML.toFixed(2))
+   let equal = eval(currentNumber.innerHTML)
     currentNumber.innerHTML = equal
 
 }
