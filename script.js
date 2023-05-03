@@ -138,4 +138,3 @@ dotBtn.addEventListener('click', dot)
 
 
 
-
