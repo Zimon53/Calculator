@@ -86,7 +86,7 @@ function operate () {
     }
 
    if (currentNumber.textContent.includes('+') && this.textContent === '+' {
-   equals()
+   equals
 }
 
 }
