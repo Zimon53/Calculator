@@ -84,6 +84,11 @@ function operate () {
         currentNumber.textContent = `Niewłaściwa Operacja`
         currentNumber.textContent.style.fontSize = '6px'
     }
+
+   if (numbers.includes('+') && this.textContent === '+' {
+   equals()
+}
+
 }
 
 
