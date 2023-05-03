@@ -90,7 +90,7 @@ function operate () {
 
 function equals () {
    let equal = eval(currentNumber.innerHTML)
-    currentNumber.innerHTML = equal.toFixed(2)
+    currentNumber.innerHTML = parseFloat(equal.toFixed(2))
 
 }
 
