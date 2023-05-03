@@ -85,9 +85,6 @@ function operate () {
         currentNumber.textContent.style.fontSize = '6px'
     }
 
-   if (currentNumber.textContent.includes('+') && this.textContent === '+' {
-   equals
-}
 
 }
 
