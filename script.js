@@ -90,7 +90,12 @@ function operate () {
 
 function equals () {
    let equal = eval(currentNumber.innerHTML)
+   let lastTwoSign = currentNumber.innerHTML.slice(-2)
     currentNumber.innerHTML = parseFloat(equal)
+
+if (lastTwoSign = '/0') {
+   currentNumber.innerHTML = 'Niewłaściwa operacja z dzieleniem przez 0'
+}
 
 }
 
